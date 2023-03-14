@@ -1,7 +1,7 @@
 <?php
-add_action('plugins_loaded', 'custom_category');
+add_action('plugins_loaded', 'bitt_oxyberg_add_category');
 
-function custom_category()
+function bitt_oxyberg_add_category()
 {
     global $ct_component_categories;
     $ct_component_categories = array(
