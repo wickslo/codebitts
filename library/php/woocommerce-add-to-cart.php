@@ -1,5 +1,6 @@
 <?php
 
+/* This snippet adds an Add to Cart Button via PHP to a page/template */
 global $product;
 if ($product) {
 

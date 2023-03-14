@@ -2,7 +2,7 @@
 /**
  * Function Name: bitt_split_content
  * Description: Adds the bitt_split_content function to a WordPress site.
- * Author: Luxibay - https;//luxbiay.dev
+ * Author: Luxibay - https://luxbiay.dev
  * @version 1.0
  * 
  * @param $tag - (string) Determines what HTML tag should be split.
