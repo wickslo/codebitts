@@ -7,6 +7,13 @@ if (function_exists('oxygen_vsb_register_condition')) {
 
 	if (!function_exists('bitt_query_results_callback')) {
 
+		/**
+		 * Query Results Condition
+		 * 
+		 * @param string $value - the value of the condition
+		 * @param string $operator - the operator of the condition
+		 * @return bool $query - the results of the query
+		 */
 		function bitt_query_results_callback($value, $operator)
 		{
 
