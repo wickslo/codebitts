@@ -6,7 +6,7 @@
  */
 if (!function_exists('bitt_current_archive_term')) {
 
-    function bitt_current_archive_taxonomy()
+    function bitt_current_archive_term()
     {
         $current_terms = get_queried_object()->term_id;
         return $current_terms;
